@@ -831,7 +831,7 @@ Before real-world deployment, the system should be validated using:
 </p>
 
 <p align="center">
-  <b>Barath R.K.</b>
+  <b>Barath R K </b>
 </p>
 
 <p align="center">
