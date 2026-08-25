@@ -1,0 +1,2 @@
+precision,recall,auc,optimal_threshold,fp_cost,fn_cost,savings,tp,fp,fn,tn
+0.6979722518676628,1.0,0.6260144152321674,0.1,100,550,314000,654,283,0,0
