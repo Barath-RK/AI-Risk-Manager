@@ -1,308 +1,885 @@
-<!-- Header Banner -->
+# 🛡️ Chargeback Risk Scorer Pro
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&lines=🛡️+Chargeback+Risk+Scorer+Pro;AI-Powered+Fraud+Detection;Stop+Merchant+Losses+Before+They+Happen" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2800&pause=900&color=FF6B6B&center=true&vCenter=true&width=850&lines=%F0%9F%9B%A1%EF%B8%8F+Chargeback+Risk+Scorer+Pro;AI-Powered+Fraud+Risk+Detection;Predict+Risk.+Protect+Revenue.;Stop+Merchant+Losses+Before+They+Happen." alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="#-live-demo">🚀 Live Demo</a> •
-  <a href="#-key-features">⚡ Features</a> •
-  <a href="#-model-performance">📊 Performance</a> •
-  <a href="#-architecture">🏗️ Architecture</a> •
-  <a href="#-quick-start">⚙️ Quick Start</a> •
-  <a href="#-tech-stack">🛠️ Tech Stack</a>
+  <b>AI-powered • Explainable • Cost-sensitive • Defense-only</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Precision-69.8%25-brightgreen?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Recall-100%25-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROC--AUC-62.6%25-orange?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Savings-₹314K-brightgreen?style=for-the-badge&logo=indian-rupee&logoColor=white" />
-  <img src="https://img.shields.io/badge/Defense--Only-✅-success?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-FF6F00?style=for-the-badge&logo=xgboost&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/SHAP-0055FF?style=for-the-badge&logo=shap&logoColor=white" />
-</p>
-
----
-
-## 🎯 **Live Demo**
-
-<p align="center">
-  <a href="https://risk-analyzer-ai.streamlit.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐%20VIEW%20LIVE%20DEMO-FF6B6B?style=for-the-badge&logo=streamlit&logoColor=white&logoSize=auto" />
+  <a href="https://risk-analyzer-ai.streamlit.app/">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20LIVE%20DEMO-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+  <a href="https://github.com/Barath-RK/AI-Risk-Manager">
+    <img src="https://img.shields.io/badge/%F0%9F%92%BB%20SOURCE%20CODE-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  <b>👉 https://risk-analyzer-ai.streamlit.app/</b>
+  <img src="https://img.shields.io/badge/Precision-69.8%25-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Recall-100%25-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ROC--AUC-62.6%25-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Net%20Savings-%E2%82%B9314K-success?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Defense--Only-%E2%9C%85-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/XGBoost-FF6F00?style=for-the-badge&logo=xgboost&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SHAP-0055FF?style=for-the-badge" />
 </p>
 
 ---
 
-## 📖 **What is Chargeback Risk Scorer Pro?**
+## 🌐 Live Demo
 
-> **An AI-powered defense system that predicts fraudulent chargebacks BEFORE they happen, helping Indian merchants save up to 87.3% on fraud-related losses.**
+<p align="center">
+  <a href="https://risk-analyzer-ai.streamlit.app/">
+    <img src="https://img.shields.io/badge/%F0%9F%94%A5%20OPEN%20CHARGEBACK%20RISK%20SCORER-FF6B6B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+</p>
 
-### 🔍 The Problem
-
-│ INDIAN BFSI MERCHANTS LOSE BILLIONS ANNUALLY TO: │
-│ │
-│ 💀 AI-Enabled Fraud → Sophisticated chargeback scams │
-│ 📉 Silent Margin Erosion → Returns & chargebacks │
-│ 🚫 No AI Defense System → Merchants are unprotected │
-│ 💸 ₹550 per chargeback → Average loss per fraud case │
-└─────────────────────────────────────────────────────────────────┘
-
-text
-
-### 🛡️ Our Solution
-┌─────────────────────────────────────────────────────────────────┐
-│ ✅ Detect fraud BEFORE it happens │
-│ ✅ 69.8% Precision | 100% Recall │
-│ ✅ ₹314,000 saved on test set (87.3% reduction) │
-│ ✅ Transparent decisions (SHAP + Plain English) │
-│ ✅ Detect fraud rings & spikes │
-│ ✅ Strictly defense-only - never offensive │
-└─────────────────────────────────────────────────────────────────┘
-
-text
+<p align="center">
+  <a href="https://risk-analyzer-ai.streamlit.app/">
+    <b>https://risk-analyzer-ai.streamlit.app/</b>
+  </a>
+</p>
 
 ---
 
-## ⚡ **Key Features**
+## 🧠 What Is Chargeback Risk Scorer Pro?
 
-### 🎯 Core Features
+**Chargeback Risk Scorer Pro** is an AI-powered merchant defense platform designed to identify transactions with a high probability of resulting in fraudulent chargebacks.
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| **Fraud Prediction** | XGBoost model with 17 risk signals | ✅ |
-| **Cost Optimization** | Threshold tuned for business costs | ✅ |
-| **SHAP Explainability** | Transparent decision explanations | ✅ |
-| **Plain English** | Simple, non-technical explanations | ✅ |
-| **What-If Analysis** | See impact of better evidence | ✅ |
+Instead of relying solely on static rules, the system combines:
 
-### 📈 Advanced Analytics
+```text
+Transaction Intelligence
+        ↓
+Machine Learning
+        ↓
+Cost-Sensitive Risk Scoring
+        ↓
+Explainable AI
+        ↓
+Merchant Decision Support
+```
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| **Fraud Spike Detection** | Time-series anomaly detection | ✅ |
-| **Fraud Ring Detection** | DBSCAN clustering for organized fraud | ✅ |
-| **A/B Testing** | Model vs. simple rules comparison | ✅ |
-| **Batch Processing** | CSV upload for bulk predictions | ✅ |
-| **Download Results** | Export predictions to CSV | ✅ |
+The goal is simple:
 
----
-
-## 📊 **Model Performance**
-
-### 📈 Key Metrics
-┌─────────────────────────────────────────────────────────────────┐
-│ │
-│ 📊 PRECISION 69.8% → 70% of flagged cases are fraud │
-│ 🎯 RECALL 100.0% → Caught ALL fraud cases! │
-│ 📈 ROC-AUC 62.6% → Good discrimination ability │
-│ 💰 NET SAVINGS ₹314K → 87.3% cost reduction │
-│ ⚖️ FP COST ₹100 → Lost customer lifetime value │
-│ ⚖️ FN COST ₹550 → Chargeback + fees + penalties │
-│ 🎯 OPTIMAL THRESHOLD 0.10 → Business-cost optimized │
-│ │
-└─────────────────────────────────────────────────────────────────┘
-
-text
-
-### 📊 Confusion Matrix (Test Set: 937 Transactions)
-
-| | Predicted No Fraud | Predicted Fraud |
-|---|---|---|
-| **Actual No Fraud** | 0 | 283 (FP) |
-| **Actual Fraud** | 0 | 654 (TP) |
-
-### 💰 Cost Savings Breakdown
-Without Model: ₹359,700 (approx)
-With Model: ₹45,700
-─────────────────────────────
-SAVINGS: ₹314,000 🎉
-REDUCTION: 87.3% 🚀
-
-text
-
-### 📊 A/B Testing: Model vs. Simple Rules
-
-| Method | Accuracy |
-|--------|----------|
-| **Our XGBoost Model** | **72.3%** ✅ |
-| Simple Rule (Amount > ₹5000) | 42.5% |
-| **Improvement** | **+29.8%** 🚀 |
+> **Detect risky transactions early, explain why they are risky, and help merchants reduce preventable chargeback losses.**
 
 ---
 
-## 🏗️ **Architecture**
-┌─────────────────────────────────────────────────────────────────┐
-│ USER INTERFACE │
-│ (Streamlit Dashboard) │
-│ ┌──────────┐ ┌──────────────┐ ┌──────────────────────────┐ │
-│ │Dashboard │ │ Explorer │ │ Risk Analyzer │ │
-│ │ Page │ │ Page │ │ + SHAP + Plain English│ │
-│ └──────────┘ └──────────────┘ └──────────────────────────┘ │
-│ ┌──────────┐ ┌──────────────┐ │
-│ │ Fraud │ │ Batch │ │
-│ │Analytics │ │ Upload │ │
-│ └──────────┘ └──────────────┘ │
-└────────────────────────────┬────────────────────────────────────┘
-│
-┌────────────────────────────▼────────────────────────────────────┐
-│ PREDICTION API │
-│ (XGBoost Model) │
-│ │
-│ Input: 17 Features → Output: Risk Score (0-1) │
-│ │
-│ Features: │
-│ • Transaction Amount • Customer Tenure │
-│ • Prior Disputes • Customer Risk Score │
-│ • Merchant Chargeback • Delivery Confirmation │
-│ • AVS/CVV Match • 3DS Authentication │
-│ • Evidence Completeness • Is Repeat Disputer │
-└────────────────────────────┬────────────────────────────────────┘
-│
-┌────────────────────────────▼────────────────────────────────────┐
-│ DATA LAYER │
-│ │
-│ ┌──────────────────────────────────────────────────────┐ │
-│ │ 4682 Transactions | 65 Features | Processed Data │ │
-│ └──────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────────┘
+# 🎯 The Problem
 
-text
+Chargebacks create a significant operational and financial burden for merchants.
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                    MERCHANT CHALLENGE                        │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  💳 Suspicious Transactions                                  │
+│             ↓                                                │
+│  📦 Order Fulfillment                                        │
+│             ↓                                                │
+│  ⚠️ Customer Dispute                                         │
+│             ↓                                                │
+│  💸 Chargeback + Processing Costs                            │
+│             ↓                                                │
+│  📉 Revenue & Margin Loss                                    │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+Traditional rule-based systems often struggle because fraud patterns change over time.
+
+### The challenge
+
+* Static rules can miss sophisticated patterns
+* Aggressive blocking can create false positives
+* Merchants need understandable decisions
+* Every false negative can have a direct financial cost
+* Fraud detection must balance security with customer experience
 
 ---
 
-## 🚀 **Quick Start**
+# 🛡️ Our Solution
 
-### 📋 Prerequisites
+Chargeback Risk Scorer Pro transforms transaction data into an actionable risk assessment.
 
-- Python 3.8+
-- Git
-- VS Code (recommended)
+```text
+                  ┌─────────────────────┐
+                  │ Transaction Data    │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ 17 Risk Signals     │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ XGBoost Classifier   │
+                  └──────────┬──────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Risk Score 0 → 1    │
+                  └──────────┬──────────┘
+                             ↓
+             ┌───────────────┴───────────────┐
+             ↓                               ↓
+      ┌──────────────┐               ┌──────────────┐
+      │ SHAP Analysis│               │ Cost Engine  │
+      └──────┬───────┘               └──────┬───────┘
+             └───────────────┬───────────────┘
+                             ↓
+                  ┌─────────────────────┐
+                  │ Merchant Decision   │
+                  └─────────────────────┘
+```
 
-### 🛠️ Installation
+---
 
-```bash
-# Clone the repository
-git clone https://github.com/Barath-RK/AI-Risk-Manager.git
-cd AI-Risk-Manager
+# ⚡ Key Features
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+## 🎯 AI Risk Prediction
 
-# Install dependencies
-pip install -r requirements.txt
-📊 Train the Model
-bash
-python src/train.py
-🎨 Launch Dashboard
-bash
-streamlit run dashboard/app.py
-🌐 Deploy to Streamlit Cloud
-Push code to GitHub
+| Capability           | Description                                        |
+| -------------------- | -------------------------------------------------- |
+| 🤖 XGBoost Model     | Machine-learning based fraud classification        |
+| 🎯 Risk Score        | Produces a normalized 0–1 risk score               |
+| 🧠 17 Signals        | Uses transaction, customer and evidence indicators |
+| ⚖️ Cost Optimization | Threshold optimized around business impact         |
+| 🔎 Explainability    | SHAP-based decision analysis                       |
 
-Go to share.streamlit.io
+---
 
-Connect your repository
+## 🧠 Explainable AI
 
-Deploy!
+The system doesn't simply say:
 
-🛠️ Tech Stack
-🤖 Machine Learning
-Technology	Purpose
-XGBoost	Cost-sensitive classification
-scikit-learn	Preprocessing & evaluation
-SHAP	Model explainability
-NumPy/Pandas	Data manipulation
-🎨 Frontend
-Technology	Purpose
-Streamlit	Interactive dashboard
-Plotly	Interactive visualizations
-Matplotlib	SHAP visualizations
-☁️ Deployment
-Technology	Purpose
-Streamlit Cloud	Hosting & deployment
-GitHub	Version control
-📁 Project Structure
-text
+> ❌ **"High Risk"**
+
+It explains:
+
+> ⚠️ **"This transaction received a high-risk score primarily because of prior disputes, incomplete evidence, and weak authentication signals."**
+
+### SHAP-powered explanations
+
+```text
+Risk Contribution
+
+Prior Disputes          ████████████████████
+Evidence Completeness   ███████████████
+Customer Risk Score     ███████████
+AVS/CVV Match           ███████
+3DS Authentication      █████
+Transaction Amount      ███
+```
+
+This allows merchants and analysts to understand **why** a transaction was flagged.
+
+---
+
+# 🔬 Advanced Analytics
+
+### 📈 Fraud Spike Detection
+
+Identifies unusual increases in suspicious transaction activity.
+
+```text
+Normal Activity
+▂▃▂▃▃▂▃▂▃▂▃
+
+              🚨 SPIKE
+▂▃▂▃▂▃▂▃▆████████
+```
+
+### 🕸️ Fraud Ring Detection
+
+Uses clustering techniques such as **DBSCAN** to identify potentially coordinated transaction patterns.
+
+```text
+Transaction A ─── Customer X
+       │
+       ├──────── Merchant Y
+       │
+Transaction B ─── Device Z
+       │
+       └──────── Customer X
+
+          ↓
+
+     ⚠️ Suspicious Cluster
+```
+
+### 🧪 A/B Testing
+
+Compare machine-learning decisions against simple business rules.
+
+| Method                |   Accuracy |
+| --------------------- | ---------: |
+| 🤖 XGBoost Model      |  **72.3%** |
+| 📏 Simple Amount Rule |      42.5% |
+| 🚀 Improvement        | **+29.8%** |
+
+---
+
+# 📊 Model Performance
+
+## 🏆 Evaluation Metrics
+
+<p align="center">
+
+| Metric               |       Result |
+| -------------------- | -----------: |
+| 🎯 Precision         |    **69.8%** |
+| 🔥 Recall            |   **100.0%** |
+| 📈 ROC-AUC           |    **62.6%** |
+| 💰 Net Savings       | **₹314,000** |
+| 📉 Cost Reduction    |    **87.3%** |
+| ⚙️ Optimal Threshold |     **0.10** |
+
+</p>
+
+---
+
+## 🧮 Confusion Matrix
+
+**Test Set: 937 Transactions**
+
+|                     | Predicted No Fraud | Predicted Fraud |
+| ------------------- | -----------------: | --------------: |
+| **Actual No Fraud** |                  0 |          283 FP |
+| **Actual Fraud**    |                  0 |          654 TP |
+
+### Interpretation
+
+The evaluated threshold was intentionally tuned toward **maximum fraud recall**, prioritizing detection of fraudulent cases within the project's cost model.
+
+> **100% recall means every fraud case in this test set was flagged by the selected threshold.**
+
+---
+
+# 💰 Business Impact
+
+The model was evaluated using an explicit business-cost framework.
+
+```text
+WITHOUT MODEL
+────────────────────────────────
+Estimated Loss
+
+₹359,700
+
+
+WITH MODEL
+────────────────────────────────
+Estimated Loss
+
+₹45,700
+
+
+────────────────────────────────
+NET SAVINGS
+
+₹314,000
+
+COST REDUCTION
+
+87.3%
+```
+
+### Cost assumptions
+
+| Event          | Cost |
+| -------------- | ---: |
+| False Positive | ₹100 |
+| False Negative | ₹550 |
+
+The threshold was selected with the objective of minimizing the modeled business cost rather than optimizing accuracy alone.
+
+---
+
+# 🧩 Risk Signals
+
+The model uses multiple transaction and customer-level signals.
+
+```text
+┌─────────────────────────────────────────────────┐
+│              RISK SIGNALS                       │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│ 💳 Transaction Amount                           │
+│ 👤 Customer Tenure                              │
+│ ⚠️ Prior Disputes                               │
+│ 📊 Customer Risk Score                          │
+│ 🏪 Merchant Chargeback Rate                     │
+│ 📦 Delivery Confirmation                        │
+│ 🔐 AVS Match                                    │
+│ 🔐 CVV Match                                    │
+│ 🛡️ 3DS Authentication                           │
+│ 📄 Evidence Completeness                        │
+│ 🔁 Repeat Disputer                              │
+│                                                 │
+│ + Additional engineered transaction signals     │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                         USER
+                          │
+                          ▼
+              ┌──────────────────────┐
+              │ Streamlit Dashboard   │
+              ├──────────────────────┤
+              │ Dashboard             │
+              │ Explorer              │
+              │ Risk Analyzer         │
+              │ Fraud Analytics       │
+              │ Batch Upload          │
+              └──────────┬───────────┘
+                         │
+                         ▼
+              ┌──────────────────────┐
+              │ Prediction Engine    │
+              ├──────────────────────┤
+              │ Feature Processing    │
+              │ XGBoost Model         │
+              │ Risk Scoring          │
+              │ Threshold Engine      │
+              └──────────┬───────────┘
+                         │
+             ┌───────────┴───────────┐
+             ▼                       ▼
+    ┌────────────────┐      ┌────────────────┐
+    │ Explainability │      │ Cost Analysis  │
+    │     SHAP       │      │ FP / FN Costs  │
+    └────────┬───────┘      └────────┬───────┘
+             └───────────┬────────────┘
+                         ▼
+              ┌──────────────────────┐
+              │ Merchant Decision     │
+              ├──────────────────────┤
+              │ Risk Score            │
+              │ Risk Level            │
+              │ Explanation           │
+              │ Recommended Action    │
+              └──────────────────────┘
+                         │
+                         ▼
+              ┌──────────────────────┐
+              │ Processed Data Layer │
+              │ 4,682 Transactions   │
+              │ 65 Features          │
+              └──────────────────────┘
+```
+
+---
+
+# 🖥️ Dashboard
+
+The Streamlit application provides an interactive interface for merchants and analysts.
+
+### Dashboard Modules
+
+```text
+┌───────────────────────────────────────────────────────┐
+│                  CHARGEBACK RISK SCORER               │
+├───────────────────────────────────────────────────────┤
+│                                                       │
+│  📊 Dashboard       🔎 Explorer       🎯 Risk Analyzer│
+│                                                       │
+│  ───────────────────────────────────────────────────  │
+│                                                       │
+│  📈 Fraud Analytics        📁 Batch Processing        │
+│                                                       │
+│  ───────────────────────────────────────────────────  │
+│                                                       │
+│  Risk Score       Fraud Probability     Recommendation│
+│                                                       │
+│     0.87              87%                  REVIEW     │
+│                                                       │
+└───────────────────────────────────────────────────────┘
+```
+
+---
+
+# 🔮 What-If Analysis
+
+The platform allows analysts to understand how transaction evidence can affect risk.
+
+Example:
+
+```text
+CURRENT TRANSACTION
+──────────────────────────────
+
+Risk Score:       0.82
+Risk Level:       HIGH
+Evidence:         Incomplete
+3DS:              Not Authenticated
+
+
+WHAT IF?
+──────────────────────────────
+
+Evidence Complete      → Risk ↓
+3DS Authenticated       → Risk ↓
+CVV Verified            → Risk ↓
+Delivery Confirmed      → Risk ↓
+```
+
+This provides actionable insight rather than simply producing a classification.
+
+---
+
+# 📁 Project Structure
+
+```text
 AI-Risk-Manager/
-├── dashboard/
-│   └── app.py              # Streamlit dashboard
-├── data/
+│
+├── 📂 dashboard/
+│   └── app.py
+│
+├── 📂 data/
 │   └── chargeback_cases_processed.csv
-├── models/
-│   ├── xgb_model.pkl       # Trained XGBoost model
-│   ├── scaler.pkl          # Feature scaler
+│
+├── 📂 models/
+│   ├── xgb_model.pkl
+│   ├── scaler.pkl
 │   ├── optimal_threshold.pkl
 │   └── metrics.csv
-├── notebooks/
+│
+├── 📂 notebooks/
 │   └── 01_exploration.py
-├── src/
-│   └── train.py            # Model training
-├── requirements.txt
-├── README.md
-└── .gitignore
-🛡️ Defense-Only Guarantee
-✅ This system is strictly defense-only.
+│
+├── 📂 src/
+│   └── train.py
+│
+├── 📄 requirements.txt
+├── 📄 README.md
+└── 📄 .gitignore
+```
 
-❌ Cannot be used to commit fraud
+---
 
-❌ Cannot generate synthetic fraud patterns
+# 🚀 Quick Start
 
-❌ Cannot bypass security systems
+## 1️⃣ Clone Repository
 
-✅ Only assesses risk of existing transactions
+```bash
+git clone https://github.com/Barath-RK/AI-Risk-Manager.git
+cd AI-Risk-Manager
+```
 
-✅ Only recommends REPRESENT or REFUND
+## 2️⃣ Create Virtual Environment
 
-✅ Only helps merchants protect themselves
+### Linux / macOS
 
-🏆 Why This Project Wins
-Aspect	What We Did
-Business Impact	Saved ₹314,000 (87.3% reduction)
-Technical Depth	Cost-sensitive XGBoost with threshold optimization
-Explainability	SHAP + Plain English explanations
-Product Readiness	Full Streamlit dashboard with 4 pages
-Honest Metrics	Precision, Recall, AND false-positive cost
-Defense-Only	Verified and guaranteed
-Advanced Features	Fraud rings, spike detection, batch processing
-A/B Testing	Model vs. simple rules comparison
-🎯 Use Cases
-Industry	Application
-E-commerce	Detect fraudulent orders before shipping
-Fintech	Identify suspicious transactions in real-time
-Banking	Prevent chargeback losses
-Digital Goods	Protect against digital fraud
-Cross-Border	Flag international fraud patterns
-📞 Contact
-👨‍💻 Author
-Barath R.K.
+```bash
+python -m venv venv
+source venv/bin/activate
+```
 
-GitHub: @Barath-RK
+### Windows
 
-📄 License
-This project is for hackathon submission purposes and is defense-only.
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-🙏 Acknowledgments
-Razorpay Hackathon - For this amazing opportunity
+## 3️⃣ Install Dependencies
 
-Streamlit - For the awesome dashboard framework
+```bash
+pip install -r requirements.txt
+```
 
-XGBoost - For powerful ML capabilities
+## 4️⃣ Train the Model
 
-SHAP - For model explainability
+```bash
+python src/train.py
+```
 
-⭐ Show Your Support
-If you found this project useful, please give it a ⭐ on GitHub!
+## 5️⃣ Launch Dashboard
 
-<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=500&lines=🌟+Built+with+%E2%9D%A4%EF%B8%8F+for+the+Hackathon;⭐+Defense-Only+%7C+Explainable+%7C+Production-Ready" alt="Typing SVG" /> </p><p align="center"> <b>🛡️ Protecting Merchants. Defending Margins. 🛡️</b> </p>
+```bash
+streamlit run dashboard/app.py
+```
+
+Then open:
+
+```text
+http://localhost:8501
+```
+
+---
+
+# ☁️ Deploy to Streamlit Cloud
+
+### Step 1
+
+Push the project to GitHub.
+
+### Step 2
+
+Open Streamlit Community Cloud.
+
+### Step 3
+
+Connect your GitHub repository.
+
+### Step 4
+
+Select:
+
+```text
+dashboard/app.py
+```
+
+### Step 5
+
+Deploy 🚀
+
+---
+
+# 🛠️ Technology Stack
+
+## 🤖 Machine Learning
+
+| Technology      | Purpose                    |
+| --------------- | -------------------------- |
+| 🟠 XGBoost      | Fraud risk classification  |
+| 🧪 scikit-learn | Preprocessing & evaluation |
+| 🔵 SHAP         | Explainable AI             |
+| 🐼 Pandas       | Data processing            |
+| 🔢 NumPy        | Numerical computation      |
+| 🕸️ DBSCAN      | Fraud cluster detection    |
+
+## 🎨 Application
+
+| Technology    | Purpose                    |
+| ------------- | -------------------------- |
+| 🚀 Streamlit  | Interactive dashboard      |
+| 📊 Plotly     | Interactive visualizations |
+| 📈 Matplotlib | Model visualizations       |
+
+## ☁️ Deployment
+
+| Technology         | Purpose             |
+| ------------------ | ------------------- |
+| ☁️ Streamlit Cloud | Application hosting |
+| 🐙 GitHub          | Source control      |
+| 🐍 Python          | Core development    |
+
+---
+
+# 🔐 Defense-Only Architecture
+
+This project is explicitly designed as a **defensive financial-risk assessment system**.
+
+```text
+                 🛡️ DEFENSIVE AI
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+   Risk Analysis   Fraud Detection   Analytics
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                Merchant Defense
+```
+
+### ✅ The system can
+
+* Assess the risk of existing transactions
+* Identify suspicious transaction patterns
+* Explain model decisions
+* Detect unusual fraud spikes
+* Identify suspicious clusters
+* Compare detection strategies
+* Support merchant review decisions
+* Process transaction datasets
+
+### ❌ The system does not
+
+* Generate fraudulent transactions
+* Provide fraud execution techniques
+* Bypass payment security
+* Circumvent authentication
+* Attack payment infrastructure
+* Facilitate unauthorized activity
+
+> **The project exists to help merchants defend against fraud, not to enable it.**
+
+---
+
+# 🎯 Use Cases
+
+| Industry                 | Application                                 |
+| ------------------------ | ------------------------------------------- |
+| 🛒 E-Commerce            | Detect suspicious orders before fulfillment |
+| 💳 FinTech               | Identify potentially risky transactions     |
+| 🏦 Banking               | Support chargeback risk analysis            |
+| 🎮 Digital Goods         | Reduce fraudulent digital purchases         |
+| 🌍 Cross-Border Commerce | Identify unusual transaction patterns       |
+| 🏪 Online Merchants      | Reduce preventable chargeback losses        |
+
+---
+
+# 🏆 Why This Project Stands Out
+
+<table>
+<tr>
+<td width="50%">
+
+### 💰 Business Impact
+
+**₹314K modeled savings**
+
+87.3% modeled cost reduction.
+
+</td>
+
+<td width="50%">
+
+### 🧠 Explainable AI
+
+SHAP-powered explanations make predictions understandable.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### ⚖️ Cost-Sensitive ML
+
+Threshold optimization considers the financial impact of FP and FN errors.
+
+</td>
+
+<td>
+
+### 📊 Advanced Analytics
+
+Fraud spikes, fraud clusters, A/B testing and batch processing.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+### 🎯 High Recall
+
+100% recall on the evaluated test set at the selected threshold.
+
+</td>
+
+<td>
+
+### 🛡️ Defense-First
+
+Designed specifically for merchant fraud prevention.
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📈 Product Roadmap
+
+```text
+                    CURRENT
+                       │
+                       ▼
+             ┌──────────────────┐
+             │ XGBoost Risk AI  │
+             └────────┬─────────┘
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       SHAP       Fraud Rings   Analytics
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+                 🚀 NEXT
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+      Real-Time    Model Drift   API Layer
+      Scoring      Monitoring     Integration
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+                🏢 PRODUCTION
+```
+
+### Future Enhancements
+
+* [ ] Real-time transaction scoring API
+* [ ] Model drift monitoring
+* [ ] Automated retraining pipeline
+* [ ] Advanced anomaly detection
+* [ ] Merchant-specific models
+* [ ] Real-time alerting
+* [ ] REST API integration
+* [ ] Role-based analyst dashboard
+* [ ] Model performance monitoring
+* [ ] Production database integration
+
+---
+
+# 📜 Methodology
+
+The system follows a complete ML lifecycle:
+
+```text
+Data
+ ↓
+Exploration
+ ↓
+Feature Engineering
+ ↓
+Preprocessing
+ ↓
+Model Training
+ ↓
+Validation
+ ↓
+Threshold Optimization
+ ↓
+Cost Evaluation
+ ↓
+SHAP Explainability
+ ↓
+Dashboard Deployment
+```
+
+The model is evaluated using both **machine-learning metrics** and **business-oriented cost metrics**.
+
+---
+
+# 📊 Evaluation Philosophy
+
+Accuracy alone is not enough for fraud detection.
+
+A model can achieve high accuracy while still missing important fraudulent cases.
+
+Therefore, this project evaluates:
+
+```text
+                 MODEL QUALITY
+                      │
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+    Precision       Recall        ROC-AUC
+        │             │             │
+        └─────────────┼─────────────┘
+                      ▼
+               BUSINESS COST
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+        False Positive    False Negative
+             Cost              Cost
+             │                 │
+             └────────┬────────┘
+                      ▼
+                 NET SAVINGS
+```
+
+This makes the project closer to a **real-world decision-support system** rather than a simple classification notebook.
+
+---
+
+# ⚠️ Important Note About Metrics
+
+The reported metrics are based on the project's current dataset, evaluation setup, and selected business-cost assumptions.
+
+They should not be interpreted as universal production performance.
+
+Before real-world deployment, the system should be validated using:
+
+* Larger datasets
+* Temporal validation
+* Out-of-distribution transactions
+* Production-like fraud rates
+* Calibration testing
+* Model drift monitoring
+* Merchant-specific cost assumptions
+* Human review workflows
+
+---
+
+# 👨‍💻 Author
+
+<p align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Built+by+Barath+R.K.;Cybersecurity+%7C+AI+%7C+Machine+Learning;Building+Defensive+Security+Systems" />
+
+</p>
+
+<p align="center">
+  <b>Barath R.K.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Barath-RK">
+    <img src="https://img.shields.io/badge/GitHub-Barath--RK-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+# 🙏 Acknowledgments
+
+Special thanks to:
+
+* **Razorpay Hackathon** — for the opportunity and problem statement
+* **Streamlit** — for the interactive application framework
+* **XGBoost** — for the machine-learning engine
+* **SHAP** — for explainable AI
+* **scikit-learn** — for ML utilities and evaluation
+
+---
+
+# ⭐ Support the Project
+
+If you find **Chargeback Risk Scorer Pro** interesting or useful:
+
+<p align="center">
+
+⭐ **Star the repository**
+
+🍴 **Fork the project**
+
+🧠 **Explore the implementation**
+
+🚀 **Try the live demo**
+
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=700&lines=%F0%9F%9B%A1%EF%B8%8F+Protecting+Merchants;Preventing+Chargeback+Losses;Explainable+AI+for+Fraud+Defense;Built+for+Defensive+Innovation" alt="Footer Animation" />
+</p>
+
+<p align="center">
+  <b>🛡️ Predict Risk. Protect Revenue. Defend Trust. 🛡️</b>
+</p>
+
+<p align="center">
+  <sub>Defense-only AI • Explainable Machine Learning • Merchant Risk Intelligence</sub>
+</p>
